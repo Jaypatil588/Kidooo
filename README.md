@@ -2,7 +2,6 @@
 
 AI-powered autism screening app for parents. Upload videos or evaluation reports, get developmental insights from Google Gemini, track progress with charts.
 
-**Not a diagnostic tool** — always consult a healthcare professional.
 
 ## How to Run
 
@@ -38,7 +37,7 @@ Requires Node.js 18+.
 1. **Scenario-based video upload** — 8 guided screening scenarios (Response to Name, Joint Attention, Pretend Play, etc.) with parent scripts and tailored AI prompts per age group
 2. **In-browser camera recording** — record directly from the app using MediaRecorder API, review and re-record before uploading
 3. **Auto video compression** — FFmpeg compresses videos to <20MB before sending to Gemini
-4. **AI video analysis via Gemini 2.5 Flash** — structured developmental observations across communication, social interaction, behavior, motor skills, sensory responses, and emotional regulation
+4. **AI video analysis via Gemini 3 Flash** — structured developmental observations across communication, social interaction, behavior, motor skills, sensory responses, and emotional regulation
 5. **Evaluation report upload** — upload PDFs, images, or text documents of clinical evaluations; Gemini analyzes them and extracts developmental scores
 6. **M-CHAT-R questionnaire** — 20-question standardized screening integrated into the Add Child flow; results fed as context to all AI analyses
 7. **Developmental charts** — radar chart, bar chart, and progress bars showing scores across 6 dimensions, averaged across all assessments
