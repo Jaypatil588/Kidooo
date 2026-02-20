@@ -1,73 +1,70 @@
-# React + TypeScript + Vite
+# Kidooo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI-powered autism screening app for parents. Upload videos or evaluation reports, get developmental insights from Google Gemini, track progress with charts.
 
-Currently, two official plugins are available:
+**Not a diagnostic tool** — always consult a healthcare professional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Create `.env` in the project root:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```env
+GEMINI_API_KEY=your_key_here
 ```
+
+Start dev:
+
+```bash
+npm run dev
+```
+
+- Frontend: http://localhost:5173
+- Backend: http://localhost:3001
+
+Production build:
+
+```bash
+npm run build && npm run preview
+```
+
+Requires Node.js 18+.
+
+## Features
+
+1. **Scenario-based video upload** — 8 guided screening scenarios (Response to Name, Joint Attention, Pretend Play, etc.) with parent scripts and tailored AI prompts per age group
+2. **In-browser camera recording** — record directly from the app using MediaRecorder API, review and re-record before uploading
+3. **Auto video compression** — FFmpeg compresses videos to <20MB before sending to Gemini
+4. **AI video analysis via Gemini 2.5 Flash** — structured developmental observations across communication, social interaction, behavior, motor skills, sensory responses, and emotional regulation
+5. **Evaluation report upload** — upload PDFs, images, or text documents of clinical evaluations; Gemini analyzes them and extracts developmental scores
+6. **M-CHAT-R questionnaire** — 20-question standardized screening integrated into the Add Child flow; results fed as context to all AI analyses
+7. **Developmental charts** — radar chart, bar chart, and progress bars showing scores across 6 dimensions, averaged across all assessments
+8. **Multi-child support** — add multiple children with date of birth, switch between them, each with their own screening data
+9. **Real-time progress tracking** — upload percentage, compression status, and AI analysis logs streamed live
+10. **PDF report export** — download a full report with child info, M-CHAT-R results, all analyses and score tables via jsPDF
+11. **Share with specialist** — email or copy a text summary of all analyses to share with a doctor
+12. **Resources & support links** — Autism Speaks, CDC milestones, parent tips, Autism Response Team contact
+
+## Tech Stack
+
+React 19 + TypeScript + Vite 7 | Tailwind CSS v4 | Chart.js | jsPDF | Node.js + Express | Google Gemini | FFmpeg | Multer | File-based JSON storage
+
+## API Endpoints
+
+| Method | Path | Description |
+|--------|------|-------------|
+| POST | /api/videos/upload | Upload video for analysis |
+| POST | /api/reports/upload | Upload evaluation report for analysis |
+| GET | /api/videos | List all analyses |
+| GET | /api/videos/:id | Get single analysis |
+| POST | /api/children | Add a child |
+| GET | /api/children | List children |
+| POST | /api/screening | Save M-CHAT-R results |
+| GET | /api/screening/:childId | Get screening results |
+
+## License
+
+MIT — Jay Patil
