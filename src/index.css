@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  /* Font family */
+  --font-nunito: "Nunito", sans-serif;
+
+  /* Primary — Warm Amber / Orange */
+  --color-primary-50: #fffbeb;
+  --color-primary-100: #fef3c7;
+  --color-primary-200: #fde68a;
+  --color-primary-300: #fcd34d;
+  --color-primary-400: #fbbf24;
+  --color-primary-500: #f59e0b;
+  --color-primary-600: #d97706;
+  --color-primary-700: #b45309;
+
+  /* Secondary — Warm Orange */
+  --color-secondary-400: #fb923c;
+
+  /* Pastel — Sunny warm gradients */
+  --color-pastel-sunflower: #fde68a;
+  --color-pastel-peach: #fdba74;
+  --color-pastel-coral: #fb923c;
+
+  /* Warm neutrals (stone undertone) */
+  --color-neutral-50: #fafaf9;
+  --color-neutral-200: #e7e5e4;
+  --color-neutral-400: #a8a29e;
+  --color-neutral-500: #78716c;
+  --color-neutral-600: #57534e;
+  --color-neutral-700: #44403c;
+  --color-neutral-800: #292524;
+  --color-neutral-900: #1c1917;
+
+  /* Error colors */
+  --color-error-50: #fef2f2;
+  --color-error-100: #fee2e2;
+  --color-error-200: #fecaca;
+  --color-error-600: #dc2626;
+
+  /* Shadows */
+  --shadow-soft-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+  --shadow-soft-md: 0 2px 8px 0 rgba(0, 0, 0, 0.06);
+  --shadow-soft-lg: 0 4px 16px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* Base styles */
+body {
+  font-family: var(--font-nunito);
+  margin: 0;
+  background-color: #fffbeb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Safe area for bottom nav on iOS */
+.safe-area-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}

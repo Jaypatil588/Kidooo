@@ -1,0 +1,184 @@
+DEVELOPMENTAL EVALUATION REPORT
+================================
+
+Patient Name: Jay Patil
+Date of Birth: March 15, 2024
+Age at Evaluation: 1 year, 11 months
+Date of Evaluation: February 10, 2026
+Evaluator: Dr. Sarah Mitchell, PhD — Licensed Clinical Psychologist
+Referral Source: Pediatrician (Dr. Anand Sharma)
+
+REASON FOR REFERRAL
+-------------------
+Jay was referred for a comprehensive developmental evaluation due to parental concerns regarding delayed speech, limited eye contact, and inconsistent response to his name. His pediatrician noted that Jay was not meeting typical language milestones for his age.
+
+BACKGROUND INFORMATION
+----------------------
+Jay is the first child of the Patil family. Pregnancy and delivery were uncomplicated. Birth weight was 3.2 kg. No significant medical history. Family history is positive for late-talking (father spoke first words at age 3).
+
+Jay currently attends a home daycare 3 days per week. Parents report he plays well alongside other children but rarely engages in reciprocal play. He has approximately 5-8 single words but does not combine words. He uses pointing occasionally but more often pulls his parent's hand to desired objects.
+
+DEVELOPMENTAL HISTORY
+---------------------
+- Sat independently: 7 months (typical)
+- Crawled: 9 months (typical)
+- Walked independently: 14 months (typical)
+- First words: 15 months ("mama", "dada")
+- Current vocabulary: 5-8 words (below expected 50+ words for age)
+- No two-word combinations (expected by 24 months)
+
+ASSESSMENT INSTRUMENTS
+----------------------
+1. Bayley Scales of Infant and Toddler Development, 4th Edition (Bayley-4)
+2. Autism Diagnostic Observation Schedule, 2nd Edition (ADOS-2) — Module 1
+3. Vineland Adaptive Behavior Scales, 3rd Edition (Parent Interview)
+4. Clinical observation and parent interview
+
+BEHAVIORAL OBSERVATIONS
+------------------------
+Jay presented as a pleasant child who separated easily from his parents. He explored the assessment room with interest, particularly drawn to cause-and-effect toys. He showed brief moments of eye contact but these were inconsistent and rarely sustained beyond 1-2 seconds.
+
+During structured activities, Jay showed limited joint attention. When the examiner pointed to objects, Jay looked at the examiner's hand rather than the object approximately 70% of the time. He did not bring objects to show the examiner and did not follow referential gaze.
+
+Jay demonstrated some functional play (pushing a car, putting objects in containers) but no symbolic or pretend play was observed. He lined up blocks in a row on two occasions rather than stacking them.
+
+When his name was called, Jay responded approximately 30% of the time (typical children respond >80%). Response improved when visual cues were added.
+
+Sensory-wise, Jay covered his ears briefly when a loud toy activated but recovered quickly. He showed interest in spinning the wheels of a toy car for approximately 2 minutes.
+
+COGNITIVE ASSESSMENT (Bayley-4)
+-------------------------------
+Cognitive Scale: Standard Score 88 (Low Average)
+- Strengths in cause-and-effect understanding
+- Strengths in object permanence tasks
+- Weakness in imitation of novel actions
+- Weakness in symbolic play tasks
+
+LANGUAGE ASSESSMENT (Bayley-4)
+------------------------------
+Receptive Language: Standard Score 72 (Borderline)
+- Understands simple one-step commands with gestures
+- Identifies 3-4 body parts
+- Difficulty following verbal-only instructions
+- Limited understanding of action words
+
+Expressive Language: Standard Score 65 (Mild Delay)
+- Uses 5-8 single words spontaneously
+- Some echolalia noted (repeating last word of parent's sentences)
+- Uses vocalizations and gestures to communicate needs
+- No word combinations observed
+- Limited variety of consonant sounds
+
+MOTOR ASSESSMENT (Bayley-4)
+---------------------------
+Fine Motor: Standard Score 92 (Average)
+- Good pincer grasp
+- Can stack 4 blocks
+- Feeds self with spoon with some spilling
+- Beginning to scribble with crayon
+
+Gross Motor: Standard Score 95 (Average)
+- Walking and running well
+- Climbs on furniture
+- Kicks a ball
+- Can walk up stairs with hand held
+
+SOCIAL-EMOTIONAL/ADAPTIVE (Vineland-3)
+--------------------------------------
+Communication: Standard Score 70 (Borderline)
+Daily Living Skills: Standard Score 85 (Low Average)
+Socialization: Standard Score 72 (Borderline)
+Motor Skills: Standard Score 94 (Average)
+Adaptive Behavior Composite: Standard Score 78 (Borderline)
+
+ADOS-2 RESULTS (Module 1)
+--------------------------
+Social Affect Score: 12 (Autism spectrum cutoff: 8)
+Restricted/Repetitive Behavior Score: 3 (Cutoff: 4)
+Total Score: 15 (Autism cutoff: 12, Autism Spectrum cutoff: 8)
+
+Comparison Score: 6 (Moderate level of autism-related symptoms)
+
+Notable observations during ADOS-2:
+- Limited frequency and range of facial expressions directed at examiner
+- Inconsistent eye contact, particularly during verbal interactions
+- No showing of objects to share interest
+- Responded to joint attention bids approximately 30% of the time
+- Some functional play but no pretend play sequences
+- Brief interest in spinning objects
+
+DIAGNOSTIC IMPRESSIONS
+----------------------
+Based on comprehensive evaluation, Jay meets criteria for:
+
+1. Autism Spectrum Disorder (ASD) — Level 1 ("Requiring Support")
+   DSM-5 Criteria: 299.00 (F84.0)
+   - Persistent deficits in social communication and social interaction
+   - Restricted, repetitive patterns of behavior (emerging)
+   - Symptoms present in early developmental period
+   - Clinically significant impact on functioning
+
+2. Language Disorder (Expressive and Receptive)
+   DSM-5: 315.32 (F80.2)
+
+STRENGTHS
+---------
+- Strong motor development (both fine and gross)
+- Cognitive abilities in low average range (good foundation for learning)
+- Interest in cause-and-effect relationships
+- Some functional play skills established
+- Generally pleasant temperament
+- Responds well to visual supports
+- Family is highly motivated and engaged
+
+RECOMMENDATIONS
+---------------
+1. EARLY INTERVENTION SERVICES (Priority — begin immediately)
+   - Applied Behavior Analysis (ABA) therapy: 15-20 hours/week
+   - Speech-Language Therapy: 2-3 sessions/week focusing on:
+     * Expanding functional vocabulary
+     * Joint attention training
+     * Responding to name
+     * Following simple directions
+     * Introduction of AAC (Augmentative and Alternative Communication) if needed
+
+2. OCCUPATIONAL THERAPY
+   - 1-2 sessions/week for:
+     * Sensory integration
+     * Play skills development
+     * Fine motor refinement
+
+3. PARENT TRAINING
+   - Pivotal Response Treatment (PRT) training for parents
+   - Daily floor-time play sessions (20 minutes minimum)
+   - Use of visual schedules at home
+   - Strategies for building joint attention during daily routines
+
+4. EDUCATIONAL PLACEMENT
+   - Consider a structured preschool program with small class size
+   - Request IEP (Individualized Education Program) evaluation at age 3
+   - 1:1 aide support may be beneficial during group activities
+
+5. MEDICAL FOLLOW-UP
+   - Audiological evaluation to rule out hearing concerns
+   - Genetic testing (chromosomal microarray) recommended
+   - Follow-up developmental evaluation in 6 months
+
+6. HOME STRATEGIES
+   - Reduce screen time to less than 30 minutes/day
+   - Narrate daily activities to increase language exposure
+   - Use visual supports (picture schedules, choice boards)
+   - Create predictable routines
+   - Respond to all communication attempts (verbal and non-verbal)
+
+PROGNOSIS
+---------
+With early and intensive intervention, Jay has a good prognosis for improvement. His cognitive abilities in the low average range, established motor skills, and pleasant temperament are positive prognostic indicators. Family engagement and early identification are strongly associated with better outcomes.
+
+Re-evaluation is recommended in 6 months to monitor progress and adjust intervention plans.
+
+---
+Dr. Sarah Mitchell, PhD
+Licensed Clinical Psychologist
+License #: PSY-28456
+Children's Developmental Center
